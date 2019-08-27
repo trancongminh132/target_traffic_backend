@@ -1,0 +1,16 @@
+version: '3.2'
+services:
+  web:
+    environment:
+      - NODE_ENV=development
+      - LC_CTYPE=en_US.UTF-8
+    volumes:
+        - type: bind
+          source: ./
+          target: /data/project/
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+    command: "bash /data/project/docker/web/startup.sh"

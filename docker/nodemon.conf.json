@@ -1,0 +1,10 @@
+{
+    "restartable": "rs",
+    "ignore": ["*.generated.*"],
+    "watch": ["./"],
+    "env": {
+        "NODE_ENV": "development",
+        "LC_CTYPE": "en_US.UTF-8"
+    },
+    "ext": "js json"
+}

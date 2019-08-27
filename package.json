@@ -1,0 +1,22 @@
+{
+    "name": "test_backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@bitbucket.org/target_traffic/backend.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/target_traffic/backend#readme",
+    "dependencies": {
+        "express": "^4.16.4",
+        "phantomjs-prebuilt": "^2.1.16",
+        "request": "^2.88.0",
+        "webdriverio": "^4.14.0"
+    }
+}
