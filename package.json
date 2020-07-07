@@ -29,7 +29,7 @@
         "webpage-capture": "^0.2.2"
     },
     "devDependencies": {
-        "electron": "^6.0.5",
+        "electron": "^7.2.4",
         "nightmare": "^3.0.2"
     }
 }
